@@ -4,7 +4,9 @@ import React from 'react';
 import { BsChevronDoubleRight } from 'react-icons/bs';
 
 const SinglAnimal = (props) => {
-  const { id, name, image, latinName } = props;
+  const {
+    id, name, image, latinName,
+  } = props;
 
   return (
     <div>
