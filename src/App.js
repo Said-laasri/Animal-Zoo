@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './navigation/Header';
-import Deaths from './component/Deaths';
+import Animals from './component/Animals';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Deaths />} />
+        <Route path="/" element={<Animals />} />
       </Routes>
     </div>
   );
