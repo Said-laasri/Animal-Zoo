@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(67, 105, 178);
+}
+
+code {
+  font-family: 'Lato', sans-serif;
+}
+
+.d-flex {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.image-animal {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 80%;
+  border-style: groove;
+}
+
+.home {
+  width: 3rem;
+  height: 3rem;
+}

@@ -19,6 +19,16 @@ const Animals = () => {
           name={animal.name}
           latinName={animal.latinName}
           image={animal.image}
+          type={animal.type}
+          active={animal.active}
+          minWeigth={animal.minWeigth}
+          maxWeigth={animal.maxLength}
+          minLength={animal.minLength}
+          maxLength={animal.minLength}
+          life={animal.life}
+          habitat={animal.habitat}
+          diet={animal.diet}
+          geoRange={animal.geoRange}
         />
       ))}
     </div>

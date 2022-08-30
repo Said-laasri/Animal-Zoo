@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  padding-bottom: 8rem;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://rare-gallery.com/thumbs/349036-4k-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.header > h1 {
+  font-size: 7rem;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header > h2 {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header > input {
+  width: 20rem;
+  font-family: 'Lato', sans-serif;
+  height: 2rem;
+  border: none;
+  font-size: 2rem;
+}
