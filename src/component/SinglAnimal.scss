@@ -1,0 +1,47 @@
+.animal {
+  border: 1px solid rgb(10, 9, 9);
+}
+
+.button {
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  position: relative;
+  left: 60%;
+  background: none;
+  color: rgb(255, 247, 249);
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    margin-left: 1rem;
+  }
+
+  50% {
+    margin-left: 1.4rem;
+  }
+
+  100% {
+    margin-left: 1.8rem;
+  }
+}
+
+.name-animal {
+  color: aliceblue;
+}
+
+.name-latin {
+  color: antiquewhite;
+}
+
+@media only screen and (max-width: 768px) {
+  .name-animal {
+    font-size: 1rem;
+  }
+
+  .name-latin {
+    font-size: 0.7rem;
+  }
+}

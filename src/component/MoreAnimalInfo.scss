@@ -1,0 +1,45 @@
+.animalInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.animalInfo > h2 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.animalInfo > h3 {
+  font-size: 1rem;
+  color: aliceblue;
+}
+
+.image-animalInfo {
+  width: 26rem;
+  height: 26rem;
+  border-style: groove;
+}
+
+@media only screen and (max-width: 768px) {
+  .image-animalInfo {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+.animalInfo > ul {
+  list-style: none;
+}
+
+.animalInfo > ul > li {
+  color: aliceblue;
+  margin: 1rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fff;
+}
+
+.animalInfo > ul > li > h5 {
+  color: aliceblue;
+  font-weight: 700;
+}
