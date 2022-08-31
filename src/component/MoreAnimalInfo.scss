@@ -20,12 +20,14 @@
   height: 26rem;
   border-style: groove;
 }
+
 @media only screen and (max-width: 768px) {
   .image-animalInfo {
     width: 20rem;
     height: 20rem;
   }
 }
+
 .animalInfo > ul {
   list-style: none;
 }
