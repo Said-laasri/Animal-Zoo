@@ -7,7 +7,3 @@ const Header = () => (
 );
 
 export default Header;
-// <div>
-//   // <h2 className="search">Search</h2>
-//   // <input className="input" type="text" placehlder="Country" />
-// </div>
