@@ -1,8 +1,12 @@
+import './Header.scss';
+
 const Header = () => (
-  <div>
-    <h1>Number of death(Covid-!19)</h1>
-    <h2>Search</h2>
-    <input type="text" placehlder="Country" />
+  <div className="header">
+    <h1>Animal ZOO</h1>
+    <div>
+      <h2 className="search">Search</h2>
+      <input className="input" type="text" placehlder="Country" />
+    </div>
   </div>
 );
 
