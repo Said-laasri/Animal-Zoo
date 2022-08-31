@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="header"
+  >
+    <h1>
+      Animal ZOO
+    </h1>
+  </div>
+  <div
+    className="animalList"
+  />
+</div>
+`;

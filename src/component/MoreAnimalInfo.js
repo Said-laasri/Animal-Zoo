@@ -5,7 +5,7 @@ import './MoreAnimalInfo.scss';
 
 const MoreAnimalInfo = () => {
   const animals = useSelector((state) => state.animal);
-  const loacation = useLocation();
+  const location = useLocation();
   const {
     id,
     name,
@@ -21,7 +21,7 @@ const MoreAnimalInfo = () => {
     habitat,
     diet,
     geoRange,
-  } = loacation.state;
+  } = location.state;
   const props = animals.find((item) => item.id === id);
 
   console.log(props);
