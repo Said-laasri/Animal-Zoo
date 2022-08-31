@@ -1,10 +1,11 @@
 # Project Name
 
-metrics-webapp
+Animal zoo
 
 # Description the project.
 
-*******
+Animal Zoo is project where ifetch data from Animal API and siplay them with name and latin name and you can get more detail on animal by clicking on animated button
+
 ## Built With
 
 - html/scss/js/React/redux/API.
@@ -13,7 +14,7 @@ metrics-webapp
 
 ## Getting Started
 
-** ******* created with React**
+\*\* Anima Zoo created with React\*\*
 
 ---
 
@@ -24,7 +25,7 @@ follow>>>>>>>>>
 
 to use the project Space hub please follow :
 
-- Open GitHub and go to my GitHub repository name:******* clone.
+- Open GitHub and go to my GitHub repository name:Animal Zoo clone.
 
 - Click “Code” and copy the given URL.
 
@@ -38,7 +39,7 @@ $ git clone {repository URL}
 
 ### Run Space hub app on your local machine
 
-> open your directory *******/
+> open your directory Animal zoo
 
 ## \_use vs-code or any IDE to view code .
 
@@ -57,6 +58,13 @@ $ npm start
 - GitHub: [@Said-laasri](https://github.com/Said-laasri)
 - Twitter: [@saidlaasr](https://twitter.com/saidlaasr)
 - LinkedIn: [SAID LAASRI](https://www.linkedin.com/in/said-laasri-8a4367172/)
+
+## Credits
+
+thanks to:
+[Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+
+for a great design.
 
 ## 🤝 Contributing
 

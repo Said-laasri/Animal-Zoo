@@ -2,7 +2,6 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import API_URL from '../../api/api';
 
 const ADD_ANIMAL = 'zoo/animals/ADD_ANIMAL';
-// const INFO_ANIMAL = 'zoo/animals/INFO_ANIMAL';
 
 const initialState = [];
 
@@ -10,8 +9,6 @@ export default function animals(state = initialState, action) {
   switch (action.type) {
     case `${ADD_ANIMAL}/fulfilled`:
       return action.payload;
-    // case 'zoo/animals/INFO_ANIMAL/fulfilled':
-    //   return action.payload;
     default:
       return state;
   }

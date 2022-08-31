@@ -1,5 +1,9 @@
 .animal {
-  border: 1px solid rgb(10, 9, 9);
+  border: 1px solid rgb(87, 136, 229);
+}
+
+.animal:nth-child(3n-2) {
+  background: rgb(62, 97, 163);
 }
 
 .button {
@@ -29,11 +33,11 @@
 }
 
 .name-animal {
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 
 .name-latin {
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 768px) {

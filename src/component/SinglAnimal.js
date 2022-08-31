@@ -50,14 +50,8 @@ const SinglAnimal = (props) => {
       <div className="d-flex-row">
         <img className="image-animal" src={image} alt="animal-name" />
         <div className="d-flex">
-          <h2 className="name-animal">
-            Name: &nbsp;
-            {name}
-          </h2>
-          <h3 className="name-latin">
-            Latin: &nbsp;
-            {latinName}
-          </h3>
+          <h2 className="name-animal">{name}</h2>
+          <h3 className="name-latin">{latinName}</h3>
         </div>
       </div>
     </div>
