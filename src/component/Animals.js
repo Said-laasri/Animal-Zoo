@@ -2,6 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { getAnimal } from '../redux/animals/animals';
 import SinglAnimal from './SinglAnimal';
+import './Animals.scss';
 
 const Animals = () => {
   const dispatch = useDispatch();
@@ -11,7 +12,7 @@ const Animals = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className="animalList">
       {animals.map((animal) => (
         <SinglAnimal
           key={animal.id}

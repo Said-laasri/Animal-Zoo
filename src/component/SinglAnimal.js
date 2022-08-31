@@ -2,6 +2,7 @@ import { PropTypes } from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsChevronDoubleRight } from 'react-icons/bs';
+import './SinglAnimal.scss';
 
 const SinglAnimal = (props) => {
   const {
@@ -22,40 +23,42 @@ const SinglAnimal = (props) => {
   } = props;
 
   return (
-    <div>
-      <img className="image-animal" src={image} alt="animal-name" />
-      <div>
-        <Link
-          to={`/more/${id}`}
-          state={{
-            id,
-            name,
-            latinName,
-            image,
-            type,
-            active,
-            minWeigth,
-            maxWeigth,
-            minLength,
-            maxLength,
-            life,
-            habitat,
-            diet,
-            geoRange,
-          }}
-        >
-          <button type="button" id={id}>
-            <BsChevronDoubleRight />
-          </button>
-        </Link>
-        <h2>
-          Name:
-          {name}
-        </h2>
-        <h3>
-          Latin:
-          {latinName}
-        </h3>
+    <div className="animal d-flex">
+      <Link
+        to={`/more/${id}`}
+        state={{
+          id,
+          name,
+          latinName,
+          image,
+          type,
+          active,
+          minWeigth,
+          maxWeigth,
+          minLength,
+          maxLength,
+          life,
+          habitat,
+          diet,
+          geoRange,
+        }}
+      >
+        <button className="button" type="button" id={id}>
+          <BsChevronDoubleRight />
+        </button>
+      </Link>
+      <div className="d-flex-row">
+        <img className="image-animal" src={image} alt="animal-name" />
+        <div className="d-flex">
+          <h2 className="name-animal">
+            Name: &nbsp;
+            {name}
+          </h2>
+          <h3 className="name-latin">
+            Latin: &nbsp;
+            {latinName}
+          </h3>
+        </div>
       </div>
     </div>
   );
