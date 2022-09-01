@@ -1,0 +1,63 @@
+.animalInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  ul {
+    list-style: none;
+
+    li {
+      color: rgb(248, 249, 250);
+      margin: 1rem;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #fff;
+
+      h5 {
+        color: rgb(244, 247, 250);
+        font-size: 1rem;
+        font-weight: 700;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: rgb(244, 247, 250);
+  }
+
+  h3 {
+    font-size: 1rem;
+    color: rgb(242, 245, 247);
+  }
+}
+
+.image-animalInfo {
+  width: 26rem;
+  height: 26rem;
+  border-style: groove;
+}
+
+@media only screen and (max-width: 768px) {
+  .image-animalInfo {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      color: rgb(248, 249, 250);
+      margin: 1rem;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #fff;
+
+      h5 {
+        color: rgb(244, 247, 250);
+        font-size: 1rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
