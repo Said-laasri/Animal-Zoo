@@ -17,7 +17,7 @@ const Animals = () => {
   return (
     <div>
       <div className="categorie">
-        <h3>Select:</h3>
+        <h3>Select :</h3>
         <select onChange={changeState}>
           <option value="type">Type</option>
           <option value="Mammal">Mammals</option>
