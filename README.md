@@ -14,7 +14,7 @@ Animal Zoo is project where ifetch data from Animal API and siplay them with nam
 
 ## Getting Started
 
-\*\* Anima Zoo created with React\*\*
+\*\* Animal Zoo created with React\*\*
 
 ---
 
@@ -50,6 +50,10 @@ then
 $ npm start
 
 <hr>
+
+## Live Demo
+
+[Link-Demo]()
 
 ## Authors
 
