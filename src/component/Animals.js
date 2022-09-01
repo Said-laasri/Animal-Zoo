@@ -10,24 +10,22 @@ const Animals = () => {
   useEffect(() => {
     dispatch(getAnimal());
   }, [dispatch]);
-  console.log(animals);
   const changeState = (e) => {
-    console.log(e.target.value);
     dispatch(categories(e.target.value));
   };
 
   return (
     <div>
-      <select onChange={changeState}>
-        <option value="type">Animal Type</option>
-        <option value="Mammal">Mammals</option>
-        <option value="Bird">Birds</option>
-        <option value="Reptile">Reptiles</option>
-        <option value="Amphibian">Amphibians</option>
-        <option value="Fishe">Fishes</option>
-        <option value="Invertebrate">Invertebrates</option>
-        <option value="Fungi">Fungi</option>
-      </select>
+      <div className="categorie">
+        <h3>Select:</h3>
+        <select onChange={changeState}>
+          <option value="type">Type</option>
+          <option value="Mammal">Mammals</option>
+          <option value="Bird">Birds</option>
+          <option value="Reptile">Reptiles</option>
+          <option value="Fishe">Fishes</option>
+        </select>
+      </div>
       <div className="animalList">
         {animals.map((animal) => (
           <SinglAnimal
