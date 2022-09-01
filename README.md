@@ -53,7 +53,7 @@ $ npm start
 
 ## Live Demo
 
-[Link-Demo]()
+[Link-Demo](https://bright-torte-dc130d.netlify.app/)
 
 ## Authors
 
