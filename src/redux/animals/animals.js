@@ -2,12 +2,15 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import API_URL from '../../api/api';
 
 const ADD_ANIMAL = 'zoo/animals/ADD_ANIMAL';
+const CATEGORIES = 'zoo/animals/CATEGORIES';
 
 const initialState = [];
 
 export default function animals(state = initialState, action) {
   switch (action.type) {
     case `${ADD_ANIMAL}/fulfilled`:
+      return action.payload;
+    case `${CATEGORIES}/fulfilled`:
       return action.payload;
     default:
       return state;
@@ -43,6 +46,14 @@ const duplicateData = (data) => {
   });
   return changed;
 };
+
+export const categories = createAsyncThunk(CATEGORIES, async (payload) => {
+  const response = await fetch(API_URL);
+  const data = await response.json();
+  const changed = data.filter((animal) => animal.animal_type === payload);
+  const altered = duplicateData(changed);
+  return altered;
+});
 
 const getAnimal = createAsyncThunk(ADD_ANIMAL, async () => {
   const response = await fetch(API_URL);
